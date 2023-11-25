@@ -8,8 +8,11 @@ import org.firstinspires.ftc.robotcore.external.StateMachine;
 import org.firstinspires.ftc.robotcore.external.StateTransition;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
 
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
+@RunWith(AndroidJUnit4.class)
 class FSMSampleTest {
     private static final int GREEN_MS = 10000;
     private static final int AMBER_MS = 500;
